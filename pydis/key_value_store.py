@@ -3,6 +3,9 @@ class KeyValueStore:
     def __init__(self):
         self.db = {}
         # self.timeout_index = {}
+
+    def process_command(self, command):
+        pass
     
     def set_key(self, key, value, timeout=0):
         # if timeout set timeout value
